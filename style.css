@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-first:#008EFE;
+    --color-second:#0C83FE;
+    --bg-color-first:#ffffff;
+    --bg-color-second: #F3F2F8;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* ------------CUSTOME Start------------- */
+/* flex space between */
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+hr{
+    margin:1em auto;
+    border:1px solid var(--bg-color-second);
+}
+.hide{
+    display: none;
+}
+i{
+    transition: .3s;
+}
+i:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+/* ------------CUSTOME End------------- */
+
+
+/* Main Start */
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+/* Main End */
+
+
+/* //===========Left Side Start===========\\ */
+.left-side{
+    background: var(--bg-color-first);
+    width:20%;
+    height:100%;
+    overflow:auto;
+}
+    /* Left Side First Section */
+.left-side .app-name{
+    border-bottom: 2px solid var(--bg-color-second);
+    padding: 2em;
+}
+.left-side .app-name .left .icon{
+    background: var(--color-first);
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+}
+.left-side .app-name .left{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.left-side .app-name .right .icon i{
+    color: gray;
+    transform: rotate(180deg);
+    font-size: 1.5em;
+}
+    /* left side Second Section */
+.left-side .second-section{
+    padding:1em 2em;
+}
+.left-side .second-section .profile-user{
+    position: sticky;
+    top:0px;
+    background:var(--bg-color-first);
+}
+.left-side .second-section .profile-user .user .profile-image{
+    position: relative;
+}
+.left-side .second-section .profile-user .user .profile-image img{
+    background: wheat;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline:3px solid var(--bg-color-second) ;
+}
+.left-side .second-section .profile-user .user .profile-image .badge-success{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background:rgba(1, 204, 1, 0.879);
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
+    border: 3px solid var(--bg-color-first);
+}
+.left-side .second-section .profile-user .arrow{
+    color:var(--color-first);
+}
+    /* Navigation */
+.left-side .second-section .navigation .nav-links{
+    list-style-type: none;
+}
+.left-side .second-section .navigation .nav-link{
+    padding: 1em 1em;
+    border-radius: 10px;
+    transition: .5s;
+    /* margin: 1em auto; */
+
+}
+.left-side .second-section .navigation .nav-link:hover{
+    background-color: #0090fe41;
+}
+.left-side .second-section .navigation .nav-list .nav-link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-second);
+    font-size: 1.2em;
+}
+.left-side .second-section .navigation .nav-list .nav-link .text{
+    color:#333;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.left-side .second-section .navigation .nav-list .nav-link .right .budge{
+    font-size: .6em;
+    border-radius: 10px;
+    padding:.2em .5em;
+    background-color: #0090fe31;
+}
+/* //===========Left Side END===========\\ */
+
+
+
+/* //===========Right Side Start===========\\ */
+.right-side{
+    background: var(--bg-color-second);
+    width: 80%;
+    padding: 1em 1.5em;
+}
+/* //===========Right Side End===========\\ */
+
