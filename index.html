@@ -1,242 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>SaaS Dashboard | Hamza Nawabi</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Full Page -->
     <div class="main">
-        <!-- aside for navigation -->
-        <div class="left-side">
-            <!-- first section  -->
-            <div class="app-name space-between">
-                <div class="left space-between">
-                    <div class="icon"></div>
-                    <span class="text">
-                        Application Name
-                    </span>
-                </div>
-                <div  class="right">
-                    <span class="icon" ><i class="fa-solid fa-indent"></i></span>
-                </div>
+      <!-- aside for navigation -->
+      <div class="left-side">
+        <!-- first section  -->
+        <div class="app-name space-between">
+          <div class="left space-between">
+            <div class="icon"></div>
+            <span class="text"> Application Name </span>
+          </div>
+          <div class="right">
+            <span class="icon"><i class="fa-solid fa-indent"></i></span>
+          </div>
+        </div>
+        <!-- second section -->
+        <div class="second-section">
+          <!-- User Profile -->
+          <div class="profile-user space-between">
+            <div class="user space-between">
+              <div class="profile-image">
+                <img src="" alt="" />
+                <span class="badge-success"></span>
+              </div>
+              <div>
+                <h4>Hamza Nawabi</h4>
+                <p>Developer</p>
+              </div>
             </div>
-            <!-- second section -->
-            <div class="second-section">
-                <!-- User Profile -->
-                <div class="profile-user space-between">
-                    <div class="user space-between">
-                        <div class="profile-image">
-                            <img src="" alt="">
-                            <span class="badge-success"></span>
-                        </div>
-                        <div>
-                            <h4>Hamza Nawabi</h4>
-                            <p>Developer</p>
-                        </div>
-                    </div>
-                    <div class="arrow">
-                        <div>
-                            <i class="fa-solid fa-angle-up"></i>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <!-- Navigation -->
-                <div class="navigation">
-                    <ul class="nav-links">
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-inbox"></i></span> &nbsp; 
-                                    <span class="text">Inbox</span>
-                                </div>
-                                <div class="right">
-                                    <span class="budge">4</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-file-arrow-up"></i></span> &nbsp; 
-                                    <span class="text">Drive Files</span>
-                                </div>
-                                <div class="right">
-                                    <span class="budge">436</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-border-all"></i></span> &nbsp; 
-                                    <span class="text">Boards</span>
-                                </div>
-                                <div class="right">
-                                    <span class="budge">5</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-regular fa-clock"></i></span> &nbsp; 
-                                    <span class="text">Updates</span>
-                                </div>
-                                <!-- <div class="right">
+            <div class="arrow">
+              <div>
+                <i class="fa-solid fa-angle-up"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!-- Navigation -->
+          <div class="navigation">
+            <ul class="nav-links">
+              <li class="nav-list">
+                <a class="nav-link active" href="">
+                  <div class="left">
+                    <span class="icon"><i class="fa-solid fa-inbox"></i></span>
+                    &nbsp;
+                    <span class="text">Inbox</span>
+                  </div>
+                  <div class="right">
+                    <span class="budge">4</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-solid fa-file-arrow-up"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">Drive Files</span>
+                  </div>
+                  <div class="right">
+                    <span class="budge">436</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-solid fa-border-all"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">Boards</span>
+                  </div>
+                  <div class="right">
+                    <span class="budge">5</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-regular fa-clock"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">Updates</span>
+                  </div>
+                  <!-- <div class="right">
                                     <span class="budge">4</span>
                                 </div> -->
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-chart-pie"></i></span> &nbsp; 
-                                    <span class="text">Analytics</span>
-                                </div>
-                                <div class="right">
-                                    <span class="budge">2</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-table-columns"></i></span> &nbsp; 
-                                    <span class="text">CRM Dashboard</span>
-                                </div>
-                                <div class="right">
-                                    <span class="budge">2</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-money-bill-1-wave"></i></span> &nbsp; 
-                                    <span class="text">Ecommerce</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-regular fa-credit-card"></i></span> &nbsp; 
-                                    <span class="text">Crypto Currency</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-business-time"></i></span> &nbsp; 
-                                    <span class="text">Projects</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-id-card"></i></span> &nbsp; 
-                                    <span class="text">NFT Marketplace</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-list">
-                            <a class="nav-link" href="">
-                                <div class="left">
-                                    <span class="icon"><i class="fa-solid fa-gear"></i></span> &nbsp; 
-                                    <span class="text">Settings</span>
-                                </div>
-                                <div class="right">
-                                    <span class="budge">2</span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <hr>
-            </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-solid fa-chart-pie"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">Analytics</span>
+                  </div>
+                  <div class="right">
+                    <span class="budge">2</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-solid fa-table-columns"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">CRM Dashboard</span>
+                  </div>
+                  <div class="right">
+                    <span class="budge">2</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-solid fa-money-bill-1-wave"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">Ecommerce</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-regular fa-credit-card"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">Crypto Currency</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-solid fa-business-time"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">Projects</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"
+                      ><i class="fa-solid fa-id-card"></i
+                    ></span>
+                    &nbsp;
+                    <span class="text">NFT Marketplace</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="">
+                  <div class="left">
+                    <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                    &nbsp;
+                    <span class="text">Settings</span>
+                  </div>
+                  <div class="right">
+                    <span class="budge">2</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <hr />
         </div>
-        <!-- right side main -->
-        <div class="right-side">
-            <!-- first section main  -->
-            <div class="first-main">
-                <div class="search-main">
-                    <input type="text" placeholder="Search Task">
-                    <i class="fa-solid fa-microphone"></i>
-                </div>
-                <div class="links-main">
-                    <ul>
-                        <li><a href="">Dashboard</a></li>
-                        <li><a href="">My Task</a></li>
-                        <li><a href="">Reporting</a></li>
-                        <li><a href="">Portfolios</a></li>
-                        <li><a href="">Goals</a></li>
-                    </ul>
-                </div>
-                <div class="icons-main">
-                    <i class="fa-solid fa-folder"></i>
-                    <i class="fa-regular fa-bell"></i>
-                </div>
-            </div>
-            <!-- second section main -->
-            <div class="second-main">
-                <div class="search-main space-between">
-                    <h1>Task Boards</h1>
-                    <i class="fa-solid fa-pen"></i>
-                </div>
-                <div class="links-main">
-                    <ul>
-                        <li><a href="" class="active">Timeline</a></li>
-                        <li><a href="">Calendar</a></li>
-                        <li><a href="">Dashboard</a></li>
-                        <li><a href="">Progress</a></li>
-                        <li><a href="">Form</a></li>
-                    </ul>
-                </div>
-                <div class="icons-main">
-                    <div class="users">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <!-- <div class="more">+5</div> -->
-                    </div>
-                    <div class="add">+</div>
-                </div>
-            </div>
-            <!-- thrid section main -->
-            <div class="third-main">
-                <div class="left-third">
-                    <div class="board-view">
-                        <i class="fa-solid fa-border-all"></i>
-                        <p>Board View</p>
-                    </div>
-                    <div class="list-view">
-                        <i class="fa-solid fa-bars"></i>
-                        <p>List View</p>
-                    </div>
-                </div>
-                <div class="main-third">
-                    main
-                </div>
-                <div class="right-third">right</div>
-            </div>
-            <!-- fourth section main -->
-            <div class="fourth-main">
-                <h1>This is fourth section</h1>
-            </div>
+      </div>
+      <!-- right side main -->
+      <div class="right-side">
+        <!-- first section main  -->
+        <div class="first-main">
+          <div class="search-main">
+            <input type="text" placeholder="Search Task" />
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+          <div class="links-main">
+            <ul>
+              <li><a href="">Dashboard</a></li>
+              <li><a href="">My Task</a></li>
+              <li><a href="">Reporting</a></li>
+              <li><a href="">Portfolios</a></li>
+              <li><a href="">Goals</a></li>
+            </ul>
+          </div>
+          <div class="icons-main">
+            <i class="fa-solid fa-folder"></i>
+            <i class="fa-regular fa-bell"></i>
+          </div>
         </div>
+        <!-- second section main -->
+        <div class="second-main">
+          <div class="search-main space-between">
+            <h1>Task Boards</h1>
+            <i class="fa-solid fa-pen"></i>
+          </div>
+          <div class="links-main">
+            <ul>
+              <li><a href="" class="active">Timeline</a></li>
+              <li><a href="">Calendar</a></li>
+              <li><a href="">Dashboard</a></li>
+              <li><a href="">Progress</a></li>
+              <li><a href="">Form</a></li>
+            </ul>
+          </div>
+          <div class="icons-main">
+            <div class="users">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <!-- <div class="more">+5</div> -->
+            </div>
+            <div class="add">+</div>
+          </div>
+        </div>
+        <!-- thrid section main -->
+        <div class="third-main">
+          <div class="left-third">
+            <div class="board-view">
+              <i class="fa-solid fa-border-all"></i>
+              <p>Board View</p>
+            </div>
+            <div class="list-view">
+              <i class="fa-solid fa-bars"></i>
+              <p>List View</p>
+            </div>
+          </div>
+          <div class="main-third">main</div>
+          <div class="right-third">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <!-- fourth section main -->
+        <div class="fourth-main">
+          <div class="header">
+            <h2>Backlog Tasks</h2>
+            <span>5</span>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="card-head">
+                <h4>Page "Order and"Setting</h4>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="progress">
+                  <div class="progress-title">
+                    <span>Progress</span>
+                    <span>8/10</span>
+                  </div>
+                  <div class="range">
+                    <div class="child" style="--value: 80%"></div>
+                  </div>
+                </div>
+                <div class="tags">
+                  <span class="blue-true">Design</span>
+                  <span class="orange-true">Backlog</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="left">
+                  <img src="" class="img" alt="" />
+                  <img src="" class="img" alt="" />
+                  <div class="total img">+5</div>
+                  <div class="add img">+</div>
+                </div>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                  <i class="fa-solid fa-bars"></i>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <h4>Page "Order and"Setting</h4>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="progress">
+                  <div class="progress-title">
+                    <span>Progress</span>
+                    <span>5/10</span>
+                  </div>
+                  <div class="range">
+                    <div class="child" style="--value: 50%"></div>
+                  </div>
+                </div>
+                <div class="tags">
+                  <span class="pink-true">Development</span>
+                  <span id="orange-true">Backlog</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="left">
+                  <img src="" class="img" alt="" />
+                  <div class="add img">+</div>
+                </div>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                  <i class="fa-solid fa-bars"></i>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <h4>Page "Order and"Setting</h4>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="progress">
+                  <div class="progress-title">
+                    <span>Progress</span>
+                    <span>3/10</span>
+                  </div>
+                  <div class="range">
+                    <div class="child" style="--value: 30%"></div>
+                  </div>
+                </div>
+                <div class="tags">
+                  <span class="orange-true">Backlog</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="left">
+                  <img src="" class="img" alt="" />
+                  <img src="" class="img" alt="" />
+                  <div class="total img">+5</div>
+                  <div class="add img">+</div>
+                </div>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                  <i class="fa-solid fa-bars"></i>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-head">
+                <h4>Page "Order and"Setting</h4>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="progress">
+                  <div class="progress-title">
+                    <span>Progress</span>
+                    <span>4/10</span>
+                  </div>
+                  <div class="range">
+                    <div class="child" style="--value: 40%"></div>
+                  </div>
+                </div>
+                <div class="tags">
+                  <span class="orange-true">Backlog</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="left">
+                  <img src="" class="img" alt="" />
+                  <img src="" class="img" alt="" />
+                  <div class="total img">+5</div>
+                  <div class="add img">+</div>
+                </div>
+                <div class="right">
+                  <i class="fa-solid fa-bell"></i>
+                  <span>4</span>
+                  <i class="fa-solid fa-bars"></i>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="./sctipt.js"></script>
-</body>
+  </body>
 </html>
